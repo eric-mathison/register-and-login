@@ -2,7 +2,7 @@
 /**
  * Plugin Name: Register and Login
  * Description: Enable visitors to register and login to your site easily and securely.
- * Version: 0.0.0-development
+ * Version: 1.0.0
  * Author: Eric Mathison
  * Text Domain: register-and-login
  * Domain Path: /languages
@@ -23,7 +23,7 @@ if ( !defined( 'ABSPATH' ) ) {
 
 // Definitons.
 define( 'REGISTER_AND_LOGIN_URI', plugin_dir_url( __FILE__ ) );
-define( 'REGISTER_AND_LOGIN_VERSION' , '0.0.0-development' );
+define( 'REGISTER_AND_LOGIN_VERSION' , '1.0.0' );
 
 require_once( plugin_dir_path(__FILE__) . 'autoload.php' );
 require_once( plugin_dir_path(__FILE__) . 'includes/utils/get_error_message.php' );
