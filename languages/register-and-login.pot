@@ -1,0 +1,322 @@
+# Copyright (C) 2022 Eric Mathison
+# This file is distributed under the GPL-2.0-or-later.
+msgid ""
+msgstr ""
+"Project-Id-Version: Register and Login 0.0.0-development\n"
+"Report-Msgid-Bugs-To: "
+"https://github.com/eric-mathison/register-and-login/issues\n"
+"POT-Creation-Date: 2022-03-20 01:22:56+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2022-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: en\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-Country: United States\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: "
+"__;_e;_x:1,2c;_ex:1,2c;_n:1,2;_nx:1,2,4c;_n_noop:1,2;_nx_noop:1,2,3c;esc_"
+"attr__;esc_html__;esc_attr_e;esc_html_e;esc_attr_x:1,2c;esc_html_x:1,2c;\n"
+"X-Poedit-Basepath: ../\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-Bookmarks: \n"
+"X-Textdomain-Support: yes\n"
+"X-Generator: grunt-wp-i18n 1.0.3\n"
+
+#: includes/admin/class-pages.php:24
+msgid "Login"
+msgstr ""
+
+#: includes/admin/class-pages.php:28 includes/templates/register_form.php:4
+#: includes/templates/register_form.php:44
+msgid "Register"
+msgstr ""
+
+#: includes/admin/class-pages.php:32
+msgid "Lost Password"
+msgstr ""
+
+#: includes/admin/class-pages.php:36
+#: includes/templates/password_lost_form.php:32
+#: includes/templates/password_reset_form.php:39
+msgid "Reset Password"
+msgstr ""
+
+#: includes/admin/class-settings-page.php:44
+msgid "General Settings"
+msgstr ""
+
+#: includes/admin/class-settings-page.php:52
+msgid "Redirect on Login"
+msgstr ""
+
+#: includes/admin/class-settings-page.php:60
+msgid "Login Redirect Page"
+msgstr ""
+
+#: includes/admin/class-settings-page.php:68
+msgid "Disable Password Change Email"
+msgstr ""
+
+#: includes/admin/class-settings-page.php:76
+msgid "WooCommerce Support"
+msgstr ""
+
+#: includes/admin/class-settings-page.php:92
+msgid "User Login Logging"
+msgstr ""
+
+#: includes/admin/class-settings-page.php:100
+msgid "User Switching"
+msgstr ""
+
+#: includes/admin/class-settings-page.php:108
+msgid "Delete User Login Logs on Uninstall"
+msgstr ""
+
+#: includes/admin/class-settings-page.php:132
+msgid "&mdash; Select &mdash;"
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "Register and Login"
+msgstr ""
+
+#: includes/class-init.php:52
+msgid "Register and Login Blocks"
+msgstr ""
+
+#: includes/core/class-emails.php:37
+msgid "Hello!"
+msgstr ""
+
+#: includes/core/class-emails.php:38
+msgid ""
+"You asked us to reset your password for your account using the email "
+"address %s."
+msgstr ""
+
+#: includes/core/class-emails.php:39
+msgid ""
+"If this was a mistake, or if you didn't ask for a password reset, just "
+"ignore this email and nothing will happen."
+msgstr ""
+
+#: includes/core/class-emails.php:40
+msgid "To reset your password, visit the following link:"
+msgstr ""
+
+#: includes/core/class-emails.php:42
+msgid "Thanks!"
+msgstr ""
+
+#: includes/core/class-emails.php:56
+msgid "Welcome to %s!"
+msgstr ""
+
+#: includes/core/class-emails.php:57
+msgid "To access to your new account, visit this link: <a href=\"%s\">Login</a>"
+msgstr ""
+
+#: includes/core/class-emails.php:58
+msgid "Your Username is: %s"
+msgstr ""
+
+#: includes/core/class-emails.php:59
+msgid ""
+"If you have forgotten your password, you can reset it here: <a "
+"href=\"%s\">Reset Password</a>"
+msgstr ""
+
+#: includes/core/class-emails.php:60
+msgid "Thank you for joining!"
+msgstr ""
+
+#: includes/core/class-login.php:65 includes/core/class-lostpassword.php:111
+#: includes/core/class-register.php:64 includes/core/class-resetpassword.php:71
+msgid "You are already signed in."
+msgstr ""
+
+#: includes/core/class-loginlogging.php:46
+msgid "Orders"
+msgstr ""
+
+#: includes/core/class-loginlogging.php:48
+msgid "Register Date"
+msgstr ""
+
+#: includes/core/class-loginlogging.php:49
+msgid "Last Login"
+msgstr ""
+
+#: includes/core/class-lostpassword.php:79
+msgid ""
+"<strong>Error</strong>: You recently requested a password reset. Please "
+"check your email for instructions on how to reset your password."
+msgstr ""
+
+#: includes/core/class-register.php:66 includes/utils/get_error_message.php:40
+msgid "Registering is currently closed to new accounts."
+msgstr ""
+
+#: includes/core/class-register.php:95
+msgid "weak_password"
+msgstr ""
+
+#: includes/core/class-resetpassword.php:90
+msgid "Invalid password reset link."
+msgstr ""
+
+#: includes/core/class-userswitching.php:36
+msgid "Switch to this user"
+msgstr ""
+
+#: includes/templates/login_form.php:4 includes/templates/login_form.php:40
+msgid "Sign In"
+msgstr ""
+
+#: includes/templates/login_form.php:19
+msgid "Check your email for a link to reset your password."
+msgstr ""
+
+#: includes/templates/login_form.php:25
+msgid "Your password has been changed. Please sign in using your new password."
+msgstr ""
+
+#: includes/templates/login_form.php:32
+msgid "You have signed out."
+msgstr ""
+
+#: includes/templates/login_form.php:39
+#: includes/templates/password_lost_form.php:26
+#: includes/templates/register_form.php:18
+msgid "Email"
+msgstr ""
+
+#: includes/templates/login_form.php:47
+msgid "Forgot your password?"
+msgstr ""
+
+#: includes/templates/password_lost_form.php:3
+msgid "Forgot Your Password?"
+msgstr ""
+
+#: includes/templates/password_lost_form.php:17
+msgid ""
+"Enter your email address and we'll send you a link you can use to reset "
+"your password."
+msgstr ""
+
+#: includes/templates/password_reset_form.php:3
+msgid "Pick a New Password"
+msgstr ""
+
+#: includes/templates/password_reset_form.php:20
+msgid "New password"
+msgstr ""
+
+#: includes/templates/password_reset_form.php:27
+msgid "Repeat new password"
+msgstr ""
+
+#: includes/templates/register_form.php:23
+msgid "First Name"
+msgstr ""
+
+#: includes/templates/register_form.php:28
+msgid "Last Name"
+msgstr ""
+
+#: includes/templates/register_form.php:33
+msgid "Password"
+msgstr ""
+
+#: includes/utils/display_notices.php:21
+msgid "Register and Login: An error has occured"
+msgstr ""
+
+#: includes/utils/display_notices.php:29
+msgid "Error switching to user"
+msgstr ""
+
+#: includes/utils/get_error_message.php:24
+msgid "Please provide an email address."
+msgstr ""
+
+#: includes/utils/get_error_message.php:26
+msgid "Please provide a password."
+msgstr ""
+
+#: includes/utils/get_error_message.php:28
+msgid "Incorrect username. Please try again."
+msgstr ""
+
+#: includes/utils/get_error_message.php:30
+msgid "Incorrect password. Please try again."
+msgstr ""
+
+#: includes/utils/get_error_message.php:32
+msgid "The email address you entered is not valid."
+msgstr ""
+
+#: includes/utils/get_error_message.php:34
+msgid "You need to enter your first name."
+msgstr ""
+
+#: includes/utils/get_error_message.php:36
+msgid "You need to enter a password."
+msgstr ""
+
+#: includes/utils/get_error_message.php:38
+msgid ""
+"An account already exists with this email address. You can reset your "
+"password here: "
+msgstr ""
+
+#: includes/utils/get_error_message.php:42
+msgid "You need to enter your email address to continue."
+msgstr ""
+
+#: includes/utils/get_error_message.php:45
+msgid "There are no registered accounts with this email address."
+msgstr ""
+
+#: includes/utils/get_error_message.php:48
+msgid "The password reset link you used is not valid anymore."
+msgstr ""
+
+#: includes/utils/get_error_message.php:50
+msgid "The passwords you entered don't match."
+msgstr ""
+
+#: includes/utils/get_error_message.php:52
+msgid "Your password can't be blank."
+msgstr ""
+
+#: includes/utils/get_error_message.php:54
+msgid "Your password is too weak. Please make a stronger password."
+msgstr ""
+
+#: includes/utils/get_error_message.php:56
+msgid ""
+"You recently requested a password reset. Please check your email for "
+"instructions on how to reset your password."
+msgstr ""
+
+#: includes/utils/get_error_message.php:61
+msgid "An unknown error occured. Please try again."
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid "eric-mathison/register-and-login"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid "Enable visitors to register and login to your site easily and securely."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Eric Mathison"
+msgstr ""

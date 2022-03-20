@@ -1,0 +1,35 @@
+{
+	"branches": "master",
+	"repositoryUrl": "https://github.com/eric-mathison/register-and-login",
+	"debug": "true",
+	"plugins": [
+		"@semantic-release/commit-analyzer",
+		"@semantic-release/release-notes-generator",
+		"@semantic-release/github",
+		[
+			"@semantic-release/changelog",
+			{
+				"changelogFile": "CHANGELOG.md"
+			}
+		],
+		[
+			"semantic-release-plugin-update-version-in-files",
+			{
+				"files": ["register-and-login.php"],
+				"placeholder": "0.0.0-development"
+			}
+		],
+		[
+			"@semantic-release/git",
+			{
+				"assets": [
+					"package.json",
+					"package-lock.json",
+					"CHANGELOG.md",
+					"register-and-login.php"
+				],
+				"message": "chore(release): ${nextRelease.version} [skip ci]\n\n${nextRelease.notes}"
+			}
+		]
+	]
+}

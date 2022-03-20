@@ -1,0 +1,143 @@
+.ral-wrapper > div {
+	margin-bottom: 2em;
+}
+
+.ral-wrapper .login-error,
+.ral-wrapper .login-info,
+.ral-wrapper .reset-pass-error,
+.ral-wrapper .lost-pass-error,
+.ral-wrapper .register-error {
+	background: #eee;
+	border-top: 4px solid;
+	font-size: 1.1rem;
+	margin-bottom: 1em;
+	padding: 0.5em;
+}
+
+.ral-wrapper form {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	flex-direction: column;
+
+	-webkit-box-direction: normal;
+	-webkit-box-flex: 1;
+	-webkit-box-orient: vertical;
+	-ms-flex: 1 100%;
+	flex: 1 100%;
+	-ms-flex-direction: column;
+	row-gap: 1em;
+}
+
+.ral-wrapper form > p label {
+	display: block;
+}
+
+.ral-wrapper form > p input[type="text"],
+.ral-wrapper form > p input[type="password"] {
+	width: 100%;
+}
+
+.ral-wrapper input[type="submit"].disabled {
+	cursor: not-allowed;
+}
+
+.ral-wrapper form > p input[type="submit"] {
+	max-width: 250px;
+	width: 100%;
+}
+
+.ral-wrapper .forgot-password {
+	display: inline-block;
+	font-size: 1.2rem;
+	margin: 0.5em;
+}
+
+.ral-wrapper .new-registration-container,
+.ral-wrapper .existing-account-container {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	flex-direction: column;
+
+	-webkit-box-direction: normal;
+	-webkit-box-orient: vertical;
+	-ms-flex-direction: column;
+	row-gap: 1em;
+}
+
+.ral-wrapper .new-registration-container .button,
+.ral-wrapper .existing-account-container .button {
+	max-width: 250px;
+	width: 100%;
+}
+
+.ral-wrapper .login-remember {
+	margin: 0 2px;
+}
+
+.ral-wrapper .login-remember input[type="checkbox"] {
+	vertical-align: top;
+}
+
+.ral-wrapper .new-registration-container .button:hover {
+	text-decoration: none !important;
+}
+
+.ral-wrapper span.field-icon {
+	cursor: pointer;
+	float: right;
+	margin-top: -48px;
+	padding-right: 10px;
+	position: relative;
+	z-index: 2;
+}
+
+.ral-wrapper span.field-icon img {
+	width: 24px;
+}
+
+.ral-wrapper meter {
+	display: block;
+	height: 0.8em;
+	margin: 0 auto;
+	padding-left: 0.1em;
+	width: 100%;
+}
+
+.ral-wrapper .validation {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+
+	-ms-flex-wrap: nowrap;
+	flex-wrap: nowrap;
+	gap: 2em;
+}
+
+.ral-wrapper span.feedback {
+	display: block;
+	font-size: 1.1rem;
+}
+
+.ral-wrapper span#password-match {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	margin-left: auto;
+
+	-ms-flex-wrap: nowrap;
+	flex-wrap: nowrap;
+}
+
+.ral-wrapper span.match-wrapper {
+	width: 92px;
+}
+
+.ral-wrapper span#password-match img {
+	display: inline-block;
+	vertical-align: text-bottom;
+	width: 26px;
+}
+
+/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInJlZ2lzdGVyLWFuZC1sb2dpbi5jc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7Q0FDQyxrQkFBa0I7QUFDbkI7O0FBRUE7Ozs7O0NBS0MsZ0JBQWM7Q0FDZixxQkFBQTtDQUNDLGlCQUFpQjtDQUNsQixrQkFBQTtDQUNDLGNBQUE7QUFDRDs7QUFFQTtDQUZDLG9CQUFBO0NBSUEsb0JBSkE7Q0FLQSxhQUxBO0NBTUEsc0JBQXNCOztDQUV0Qiw2QkFBNkI7Q0FDN0IsbUJBUEE7Q0FRQSw0QkFBNEI7Q0FDNUIsZ0JBVEE7Q0FDQSxZQUFZO0NBQ2IsMEJBQUE7Q0FVQyxZQUFZO0FBUmI7O0FBRUE7Q0FVQyxjQUFjO0FBUmY7O0FBV0E7O0NBRUMsV0FBVztBQVJaOztBQVdBO0NBUkEsbUJBQUE7QUFVQTs7QUFFQTtDQVJDLGdCQUFBO0NBQ0EsV0FBQTtBQUNEOztBQUVBO0NBQ0MscUJBQWE7Q0FBYixpQkFBQTtDQUFBLGFBQWE7QUFZZDs7QUFFQTs7Q0FFQyxvQkFBb0I7Q0FicEIsb0JBQVk7Q0FDYixhQUFBO0NBZUMsc0JBQXNCOztDQVp0Qiw2QkFBZ0I7Q0FDaEIsNEJBQVc7Q0FDWiwwQkFBQTtDQWVDLFlBQVk7QUFDYjs7QUFFQTs7Q0FFQyxnQkFBZ0I7Q0FDaEIsV0FBVztBQUNaOztBQUVBO0NBQ0MsYUFBYTtBQUNkOztBQUVBO0NBQ0MsbUJBQW1CO0FBQ3BCOztBQUVBO0NBQ0MsZ0NBQWdDO0FBQ2pDOztBQUVBO0NBQ0MsZUFBZTtDQUNmLFlBQVk7Q0FDWixpQkFBaUI7Q0FDakIsbUJBQW1CO0NBQ25CLGtCQUFrQjtDQUNsQixVQUFVO0FBQ1g7O0FBRUE7Q0FDQyxXQUFXO0FBQ1o7O0FBRUE7Q0FDQyxjQUFjO0NBQ2QsYUFBYTtDQUNiLGNBQWM7Q0FDZCxtQkFBbUI7Q0FDbkIsV0FBVztBQUNaOztBQUVBO0NBQ0Msb0JBQWE7Q0FBYixvQkFBYTtDQUFiLGFBQWE7O0NBRWIscUJBQWlCO0NBR2pCLGlCQUFpQjtDQUNqQixRQUpBO0FBS0Q7O0FBRUE7Q0FIQSxjQUFBO0NBQ0MsaUJBQWM7QUFLZjs7QUFFQTtDQUhBLG9CQUFBO0NBQ0Msb0JBQWE7Q0FBYixhQUFBO0NBQUEsaUJBQWE7O0NBUWIscUJBQXFCO0NBTHJCLGlCQUFBO0FBT0Q7O0FBTkE7Q0FTQyxXQUFXO0FBUFo7O0FBRUE7Q0FTQyxxQkFBcUI7Q0FQdEIsMkJBQUE7Q0FDQyxXQUFBO0FBU0QiLCJmaWxlIjoicmVnaXN0ZXItYW5kLWxvZ2luLmNzcyIsInNvdXJjZXNDb250ZW50IjpbIi5sb2dpbi13cmFwcGVyID4gZGl2IHtcblx0bWFyZ2luLWJvdHRvbTogMmVtO1xufVxuIl19 */

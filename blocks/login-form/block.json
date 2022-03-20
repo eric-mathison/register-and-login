@@ -1,0 +1,17 @@
+{
+	"$schema": "https://json.schemastore.org/block.json",
+	"apiVersion": 2,
+	"name": "register-and-login/login-form",
+	"version": "0.1.0",
+	"title": "Login Form",
+	"category": "register-and-login-blocks",
+	"icon": "feedback",
+	"description": "Displays a login form with a username and password field.",
+	"supports": {
+		"html": false
+	},
+	"textdomain": "register-and-login",
+	"editorScript": "file:./build/index.js",
+	"editorStyle": "file:./build/index.css",
+	"style": "file:./build/style-index.css"
+}

@@ -1,0 +1,48 @@
+{
+	"name": "register-and-login",
+	"version": "0.0.0-development",
+	"description": "Enable visitors to register and login to your site easily and securely.",
+	"author": "Eric Mathison",
+	"license": "GPL-2.0-or-later",
+	"main": "build/index.js",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/eric-mathison/register-and-login.git"
+	},
+	"scripts": {
+		"build": "wp-scripts build",
+		"format": "wp-scripts format",
+		"lint:css": "wp-scripts lint-style",
+		"lint:js": "wp-scripts lint-js",
+		"start": "wp-scripts start",
+		"packages-update": "wp-scripts packages-update",
+		"semantic-release": "semantic-release",
+		"start:login-form": "wp-scripts start blocks/login-form/src/index.js --output-path=blocks/login-form/build/",
+		"build:login-form": "wp-scripts build blocks/login-form/src/index.js --output-path=blocks/login-form/build/"
+	},
+	"dependencies": {
+		"@wordpress/block-editor": "^8.0.11",
+		"@wordpress/blocks": "^11.1.4",
+		"@wordpress/components": "^19.1.6",
+		"@wordpress/i18n": "^4.2.4"
+	},
+	"devDependencies": {
+		"@lodder/grunt-postcss": "^3.1.1",
+		"@semantic-release/changelog": "^6.0.1",
+		"@semantic-release/git": "^10.0.1",
+		"@wordpress/scripts": "^19.2.2",
+		"autoprefixer": "^10.4.2",
+		"grunt": "^1.4.1",
+		"grunt-wp-css": "^0.2.1",
+		"grunt-wp-i18n": "^1.0.3",
+		"load-grunt-tasks": "^5.1.0",
+		"postcss": "^8.4.6",
+		"semantic-release": "^18.0.1",
+		"semantic-release-plugin-update-version-in-files": "^1.1.0"
+	},
+	"browserslist": [
+		"last 2 versions",
+		"> 5%",
+		"IE 10"
+	]
+}
